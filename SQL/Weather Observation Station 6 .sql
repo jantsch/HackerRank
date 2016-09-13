@@ -1,0 +1,1 @@
+select city from station where city like 'a_%'  or city like 'e_%' or city like 'i_%' or city like 'o_%' or city like 'u_%';

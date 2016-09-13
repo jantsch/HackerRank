@@ -1,0 +1,1 @@
+Select round(long_w,4) from station where   LAT_N in (Select Max(lat_N) from station where lat_N<137.2345);

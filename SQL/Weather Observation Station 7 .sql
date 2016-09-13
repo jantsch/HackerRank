@@ -1,0 +1,1 @@
+select distinct city from station where city like '%_a' or city like '%_e'  or city like '%_i' or city like '%_o' or city like '%_u'
